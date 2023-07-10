@@ -2,7 +2,7 @@
 
 Created by Varsha Manjunath, Kanika Talwar, Elise Metcalf, Peggy Zhou, Steven Tan
 
-Live Site Link: https://lavanderfinal.onrender.com/ 
+Live Site Link: https://lavenderfinal.onrender.com/ 
 
 Case Study Link: https://docs.google.com/presentation/d/1udPl5U4ggfNcWvSP3aSiv6r_cN1hK9RoHhMJF-mqEKw/edit?usp=drive_link 
 
