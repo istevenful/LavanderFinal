@@ -15,16 +15,16 @@ function App() {
   return (
     <div className='App'>
       <div className='Lavender-tm'>
-        <img className='logo' src="./LavenderLogo.png" alt="Lavender Logo"></img>
+        <img className='logo' src="/LavenderLogo.png" alt="Lavender Logo"></img>
       </div>
       <div className='app-container'>
         <div className='app-containerBackground'>
         <Router>
           <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route exact path="/connections" element={<Connection />} />
-            <Route exact path="/profile" element={<Profile />} />
-            <Route exact path="/chat" element={<Chat />} />
+            <Route exact path="/LavanderFinal" element={<Home />} />
+            <Route exact path="/LavanderFinal/connections" element={<Connection />} />
+            <Route exact path="/LavanderFinal/profile" element={<Profile />} />
+            <Route exact path="/LavanderFinal/chat" element={<Chat />} />
           </Routes>
         </Router>
         </div>
