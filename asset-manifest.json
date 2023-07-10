@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/LavanderFinal/static/css/main.e5e4bcac.css",
+    "main.js": "/LavanderFinal/static/js/main.cfa6ad61.js",
+    "static/js/787.0d183001.chunk.js": "/LavanderFinal/static/js/787.0d183001.chunk.js",
+    "static/media/iphone.png": "/LavanderFinal/static/media/iphone.d3f4ec0d6c4aa58dda8d.png",
+    "static/media/chatBackground.png": "/LavanderFinal/static/media/chatBackground.001ae5ef4c250b01d1a4.png",
+    "index.html": "/LavanderFinal/index.html",
+    "main.e5e4bcac.css.map": "/LavanderFinal/static/css/main.e5e4bcac.css.map",
+    "main.cfa6ad61.js.map": "/LavanderFinal/static/js/main.cfa6ad61.js.map",
+    "787.0d183001.chunk.js.map": "/LavanderFinal/static/js/787.0d183001.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5e4bcac.css",
+    "static/js/main.cfa6ad61.js"
+  ]
+}
