@@ -307,6 +307,7 @@
     right:12px;
     height: 16px;
     z-index: 1001;
+    cursor: pointer;
 }
 .popupImg{
     height: 130px;

@@ -39,7 +39,7 @@ function Connection() {
                                 <img className='avatar' alt='Profile Avatar' src='profile3.png'></img>
                                 <h1>Sammy B.</h1>
                                 <p className='pronouns '>They/Them/He</p>
-                                <img className='fav-button' src="favButton.png" alt="Favorite Button"></img>
+                                <img className='fav-button' src="FavButton.png" alt="Favorite Button"></img>
                             </div>
                             <h2>About:</h2>
                             <p className='about-bio '>I love being involved in my community and volunteering at my local LGBTQ+ center. I grew up not knowing any trans men and all I wanted was someone to answer my questions.</p>

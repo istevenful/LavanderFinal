@@ -7,7 +7,7 @@ function Home() {
         if (showPopUp == false) {
             setTimeout(() => {
                 setShowPopUp(true);
-            }, 2000);
+            }, 2500);
         }
 
     }, [showPopUp]);

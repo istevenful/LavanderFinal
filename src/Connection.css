@@ -249,7 +249,11 @@
     padding-right:4px;
 }
 .refreshText{
-    width: auto !important;
     padding-left:4px;
-
+    width: auto !important;
+    font-size: 12px !important;
+    font-family: 'Nunito', sans-serif !important;
+    font-weight: 600 !important;
+    letter-spacing: -.2px !important;
+    margin: 0 !important;
 }
