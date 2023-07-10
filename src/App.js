@@ -6,7 +6,7 @@ import Connection from './Connection'
 import Profile from './Profile'
 import Chat from './Chat'
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Routes,
   Route,
   Link
@@ -19,14 +19,14 @@ function App() {
       </div>
       <div className='app-container'>
         <div className='app-containerBackground'>
-        <Router>
+
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/connections" element={<Connection />} />
             <Route exact path="/profile" element={<Profile />} />
             <Route exact path="/chat" element={<Chat />} />
           </Routes>
-        </Router>
+
         </div>
 
         

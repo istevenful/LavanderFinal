@@ -6,7 +6,7 @@ function Chat() {
             <div className='home-container'>
                 <img className='iphonestatus' src="iphoneStatus.png" alt="Status Bar"></img>
                 <div className='top-bar'>
-                    <a href='/profile' className='zIndex'><img className='chevron-left-chat' src="Back.png" alt="Back button">
+                    <a href='#/profile' className='zIndex'><img className='chevron-left-chat' src="Back.png" alt="Back button">
                     </img></a>
                     <div className='chat-header'>
                         <img className='chat-avatar' alt='Avatar 3' src='profile3Zoom.png'></img>

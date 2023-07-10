@@ -120,7 +120,7 @@ function Home() {
                 <div className='bottom-bar'>
                     <div className='nav-bar'>
                         <div className='nav-item i-l'>
-                        <a href="/connections" className='navIcon'><img  src="connectionIcon.png" alt="Connection Icon"></img></a>
+                        <a href="#/connections" className='navIcon'><img  src="connectionIcon.png" alt="Connection Icon"></img></a>
                             <p>Connections</p>
                         </div>
                         <div className='nav-item-s nav-on'>
