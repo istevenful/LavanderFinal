@@ -1,0 +1,337 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+    height: 600px;
+    background-color: #f0f0f0;
+    overflow: hidden;
+    top:114px;
+}
+.iphonestatus{
+    z-index: 100;
+    height: 33px;
+    width: 102%;
+  }
+
+.top-bar{
+    display: flex;
+    align-self: flex-end;
+    flex-direction: row;
+    height: 40px;
+    width: 98%;
+    color: black;
+    z-index: 1001;
+    font-family: 'Work Sans', sans-serif;
+    justify-content: flex-start;
+    align-items: center;
+    background: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+.chevron-left{
+    padding-right:75px;
+    padding-left:20px;
+    height: 18px;
+}
+.profile-button{
+    height:28px;
+    padding-right:20px;
+    padding-left:58px;
+}
+.content-meat{
+    width: 100%;
+    height: 455px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.content-meat h1{
+    font-size:20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+    letter-spacing:-1px;
+    margin-top:25px;
+}
+.Home-Buttons{
+    width: 245px;
+    height: 75px;
+    background: #E4CEFB;
+    margin-bottom:10px;
+    border-radius:4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bottom-bar{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 69px;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 49px;
+    z-index: 1001;
+    box-shadow: 0px -3px 3px rgba(50, 50, 50, 0.075);
+}
+.nav-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    color: #8C8CA1;
+
+}
+.i-l{
+    padding-left:7.25px ;
+}
+.nav-item-s{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    color: #8C8CA1;
+}
+.navIcon{
+    height:18px;
+
+}
+.botton-notch{
+    height: 20px;
+}
+.nav-item p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    padding: 0;
+    padding-top:5px;
+    margin:0;
+}
+.nav-item-s p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    padding: 0;
+    padding-top:5px;
+    margin:0;
+}
+.nav-on{
+    margin-bottom:-2px;
+    border-bottom:2px solid #9F69D7;
+}
+.purple{
+    color: #9F69D7;
+}
+.home-button-text{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-left: 15px;
+
+}
+.home-button-text h2{
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing:-1px;
+    margin:0;
+}
+.home-button-text p{
+    margin:0;
+    font-size: 11px;
+    letter-spacing:-.8px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+}
+.seekIcon{
+    width: 27%;
+}
+.shareIcon{
+    width: 27%;
+}
+
+.topic-history{
+    width: 245px;
+    height: 37.5px;
+    background: white;
+    margin-bottom:10px;
+    border-radius:4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.topic-history{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nextButton{
+    color: black;
+    padding-right:15px;
+    height: 12px;
+}
+
+.topic-history p{
+    padding-left:15px;
+    font-size: 11px;
+    letter-spacing:-.5px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.Chat-History{
+    display: flex;
+    flex-direction: column;
+    width: 245px;
+    align-items: center;
+}
+.Chat-History h1{
+    margin:0;
+    align-self: flex-start;
+    padding-bottom:5px;
+}
+.chat-log{
+    width: 100%;
+    height: 45px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.tcr{
+    border-radius: 4px 4px 0px 0px;
+    border-bottom: 1px solid #D9D9D9;
+}
+.bcr{
+    border-radius: 0px 0px 4px 4px;
+    border-top: 1px solid #D9D9D9;
+}
+.chat-log-avatar{
+    height: 35px;
+    padding-left:10px ;
+}
+.chat-log-content{
+    height: 35px;
+    width: 100%;
+    margin-right:15px;
+
+}
+.chat-text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+
+}
+.chat-text h3{
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    font-size: 12px;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.chat-text p{
+    margin:0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 10px;
+    color:#717171;
+
+}
+.topText{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bottomText{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.checkmark{
+    height: 9px;
+    padding-top:2px;
+}
+.topText p{
+    color:#717171;
+    font-family: 'Nunito', sans-serif;
+}
+.no-padding{
+    padding:0;
+}
+
+.Overlay{
+    position: absolute;
+    background-color: rgba(60, 60, 67, 0.329);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 1s;
+}
+.popupBox{
+    margin-top:120px;
+    width: 245px;
+    height: 300px;
+    background: white;
+    border-radius: 14px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.popupTail{
+    align-self: flex-start;
+    margin-left: 20px;
+}
+.popupTitle{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    color:#9F69D7;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 17px;
+    letter-spacing:-.3px;
+    border-bottom: 1px solid #D9D9D9;
+}
+.popupClose{
+    position: absolute;
+    top:12px;
+    right:12px;
+    height: 16px;
+    z-index: 1001;
+}
+.popupImg{
+    height: 130px;
+    padding-top: 20px ;
+    padding-bottom: 15px ;
+}
+.popupBox p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    width: 90%;
+    margin-top:10px;
+    margin-bottom:5px;
+}
+.divider{
+    border-top: 1px solid #D9D9D9;
+    width: 100%;
+
+}
+.popup-bottom-text{
+    margin-top: 5px !important; 
+    color:#9F69D7 !important;
+    font-weight: 800 !important;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }

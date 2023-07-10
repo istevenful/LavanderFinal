@@ -1,0 +1,209 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+    height: 600px;
+    background-color: #f0f0f0;
+    overflow: hidden;
+    top:114px;
+}
+.iphonestatus{
+    z-index: 100;
+    height: 33px;
+    width: 102%;
+  }
+
+.top-bar{
+    display: flex;
+    align-self: flex-end;
+    flex-direction: row;
+    height: 40px;
+    width: 98%;
+    color: black;
+    z-index: 1001;
+    font-family: 'Work Sans', sans-serif;
+    justify-content: flex-start;
+    align-items: center;
+    background: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+.chevron-left{
+    padding-right:75px;
+    padding-left:20px;
+    height: 18px;
+    z-index: 1001;
+}
+
+.profile-button{
+    height:28px;
+    padding-right:20px;
+    padding-left:58px;
+}
+.content-meat{
+    width: 100%;
+    height: 455px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.mainText{
+    font-size:20px !important;
+    font-family: 'Work Sans', sans-serif !important;
+    font-weight: bolder !important;
+    letter-spacing:-1px !important;
+    margin-top:25px !important;
+    margin-bottom:10px !important;
+}
+.subText{
+    width: 85% !important;
+    font-family: 'Nunito', sans-serif !important;
+    font-size: 11px !important;
+    font-weight: 600 !important; 
+    letter-spacing: -.2px !important;
+    margin:0 !important;
+}
+.black{
+    color: black;
+    text-decoration: none;
+    z-index: 1001;
+}
+.Home-Buttons{
+    width: 245px;
+    height: 75px;
+    background: #E4CEFB;
+    margin-bottom:10px;
+    border-radius:4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bottom-bar{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 69px;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 49px;
+    z-index: 1001;
+    box-shadow: 0px -3px 3px rgba(50, 50, 50, 0.075);
+}
+.nav-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    color: #8C8CA1;
+
+}
+.i-l{
+    padding-left:7.25px ;
+}
+.nav-item-s{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    color: #8C8CA1;
+}
+.navIcon{
+    height:18px;
+
+}
+.botton-notch{
+    height: 20px;
+}
+.nav-item p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    padding: 0;
+    padding-top:5px;
+    margin:0;
+}
+.nav-item-s p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    padding: 0;
+    padding-top:5px;
+    margin:0;
+}
+.nav-on{
+    margin-bottom:-2px;
+    border-bottom:2px solid #9F69D7;
+}
+
+
+.ProfilesCard{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 220px;
+    margin-top:10px;
+    background: #E4CEFB;
+    border-radius: 8px;
+    align-items: center;
+    box-shadow: 0px 4px 3px rgba(50, 50, 50, 0.116);
+}
+
+.pcard-img{
+    padding-top: 25px;
+    width: 100px;
+    height: 100px;
+}
+.pName{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.card-buttons{
+    width: 100%;
+    
+    height: 40px;
+    border-radius: 0 0 8px 8px;
+    background: white;
+    margin-top:14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.card-icons{
+    height: 25px;
+    padding-left: 5px;
+    padding-right:5px;
+}
+.profile-content{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.title1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 15px;
+    letter-spacing: -1px;
+
+}
+.text1{
+    font-family: 'Nunito', sans-serif;
+    font-size:13px;
+    font-weight: 500;
+    padding-top:1px;
+    letter-spacing: -.5px;
+}
+.card-button-link{
+    height: 25px;
+    z-index: 1001;
+}
