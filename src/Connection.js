@@ -7,7 +7,7 @@ function Connection() {
             <div className='home-container'>
                 <img className='iphonestatus' src="iphoneStatus.png" alt="Status Bar"></img>
                 <div className='top-bar'>
-                    <a href='/'><img className='chevron-left' src="Back.png" alt="Back button">
+                    <a href='./'><img className='chevron-left' src="Back.png" alt="Back button">
                     </img></a>
                     <div className='lavender-header'>
                         Lavender
@@ -34,7 +34,7 @@ function Connection() {
                             <h2>About:</h2>
                             <p className='about-bio '>I love being involved in my community and volunteering at my local LGBTQ+ center. I grew up not knowing any trans men and all I wanted was someone to answer my questions.</p>
                         </div>
-                        <a href='/profile' className='black'><div className='profileL'>
+                        <a href='./profile' className='black'><div className='profileL'>
                             <div className='profileDetails'>
                                 <img className='avatar' alt='Profile Avatar' src='profile3.png'></img>
                                 <h1>Sammy B.</h1>
@@ -68,7 +68,7 @@ function Connection() {
                             <p className='purple'>Connections</p>
                         </div>
                         <div className='nav-item-s '>
-                        <a href="/" className='navIcon'><img  src="homeIcon.png" alt="Home icon"></img></a>
+                        <a href="./" className='navIcon'><img  src="homeIcon.png" alt="Home icon"></img></a>
                             <p>Home</p>
                         </div>
                         <div className='nav-item-s '>

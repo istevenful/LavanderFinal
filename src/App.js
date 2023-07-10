@@ -15,7 +15,7 @@ function App() {
   return (
     <div className='App'>
       <div className='Lavender-tm'>
-        <img className='logo' src="LavenderLogo.png" alt="Lavender Logo"></img>
+        <img className='logo' src="./LavenderLogo.png" alt="Lavender Logo"></img>
       </div>
       <div className='app-container'>
         <div className='app-containerBackground'>

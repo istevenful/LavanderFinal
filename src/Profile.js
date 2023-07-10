@@ -7,7 +7,7 @@ function Profile() {
             <div className='home-container'>
                 <img className='iphonestatus' src="iphoneStatus.png" alt="Status Bar"></img>
                 <div className='top-bar'>
-                    <a href='/connections' className='zIndex'><img className='chevron-left' src="Back.png" alt="Back button">
+                    <a href='./connections' className='zIndex'><img className='chevron-left' src="Back.png" alt="Back button">
                     </img></a>
                     <div className='lavender-header'>
                         Lavender
@@ -23,7 +23,7 @@ function Profile() {
                         <div className='pName'>Sammy B.</div>
                         <div className='pronouns'>They/Them/He</div>
                         <div className='card-buttons'>
-                            <a className='card-button-link' href='/chat'> <img  className='card-icons' alt='Chat Icon' src='CardChat.png'></img></a>
+                            <a className='card-button-link' href='./chat'> <img  className='card-icons' alt='Chat Icon' src='CardChat.png'></img></a>
                             <img className='card-icons' alt='Video Icon' src='CardVideoCall.png'></img>
                             <img className='card-icons' alt='Call Icon' src='CardCall.png'></img>
                             <img className='card-icons' alt='Fav Icon' src='CardFav.png'></img>
@@ -47,11 +47,11 @@ function Profile() {
                 <div className='bottom-bar'>
                     <div className='nav-bar'>
                         <div className='nav-item i-l nav-on'>
-                            <a href="/connections" className='navIcon'><img src="connectionIconOn.png" alt="Connection Icon" ></img></a>
+                            <a href="./connections" className='navIcon'><img src="connectionIconOn.png" alt="Connection Icon" ></img></a>
                             <p className='purple'>Connections</p>
                         </div>
                         <div className='nav-item-s '>
-                            <a href="/" className='navIcon'><img src="homeIcon.png" alt="Home icon"></img></a>
+                            <a href="./" className='navIcon'><img src="homeIcon.png" alt="Home icon"></img></a>
                             <p>Home</p>
                         </div>
                         <div className='nav-item-s '>
