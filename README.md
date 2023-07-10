@@ -1,4 +1,4 @@
-# Lavander Final Project
+# Lavender Final Project
 
 Created by Varsha Manjunath, Kanika Talwar, Elise Metcalf, Peggy Zhou, Steven Tan
 
