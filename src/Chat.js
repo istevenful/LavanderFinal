@@ -5,7 +5,9 @@ function Chat() {
         <>
             <div className='home-container'>
                 <img className='iphonestatus' src="iphoneStatus.png" alt="Status Bar"></img>
-                <div className='top-bar'>
+
+                <div className='content-meat-chat'>
+                <div className='top-bar-chat'>
                     <a href='/profile' className='zIndex'><img className='chevron-left-chat' src="Back.png" alt="Back button">
                     </img></a>
                     <div className='chat-header'>
@@ -25,7 +27,6 @@ function Chat() {
 
                     </img>
                 </div>
-                <div className='content-meat-chat'>
                     <div className='chat-padding'>
                         <div className='chat-date'>
                             <p>Thur, Jul 6</p>
@@ -39,8 +40,14 @@ function Chat() {
                     </div>
                 </div>
                 <div className='bottom-bar'>
-                    <div className='nav-bar'>
-
+                    <div className='chat-bar'>
+                        <div className='message-bar'>
+                            <div className='message-placeholder'>
+                                Write a message...
+                            </div>
+                            <img className='stickerIcon' alt='Sticker' src='Sticker.png'></img>
+                        </div>
+                        <img className='voiceIcon' alt='Microphone' src='Voice.png'></img>
                     </div>
                     <img className='botton-notch' src="bottomNotch.png" alt="Bottom pull up">
                     </img>

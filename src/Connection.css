@@ -6,7 +6,12 @@
     background-color: #f0f0f0;
     overflow: hidden;
     top:114px;
+
 }
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 .iphonestatus{
     z-index: 100;
     height: 33px;
@@ -39,6 +44,7 @@
     padding-left:58px;
 }
 .content-meat{
+    animation: .7s ease-out 0s 1 fadeIn;
     width: 100%;
     height: 455px;
     display: flex;

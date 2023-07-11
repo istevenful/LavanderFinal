@@ -14,11 +14,11 @@
     width: 102%;
   }
 
-.top-bar{
+.top-bar-chat{
     display: flex;
     align-self: flex-end;
     flex-direction: row;
-    height: 40px;
+    height: 65px;
     width: 98%;
     color: black;
     z-index: 1001;
@@ -43,12 +43,13 @@
 }
 .content-meat-chat{
     width: 100%;
-    height: 455px;
+    height: 493px;
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
     background-image: url("../public/chatBackground.png");
+    animation: .7s ease-out 0s 1 fadeIn;
 }
 
 .mainText{
@@ -88,13 +89,32 @@
     background-color: white;
     height: 69px;
 }
-.nav-bar{
+.chat-bar{
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 49px;
     z-index: 1001;
     box-shadow: 0px -3px 3px rgba(50, 50, 50, 0.075);
+}
+.message-bar{
+    margin-top:8px;
+    border-radius: 16px;
+    margin-left:42px;
+    height: 25px;
+    width: 190px;
+    border:.5px solid #ababac50;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    
+}
+.message-placeholder{
+    padding-left: 10px;
+    font-size: 11px;
+    color:#AAAAAA;
 }
 .nav-item{
     display: flex;
@@ -104,6 +124,15 @@
     width: 70px;
     color: #8C8CA1;
 
+}
+.voiceIcon{
+    margin-top:10px;
+    margin-left:12px;
+    height: 25px;
+}
+.stickerIcon{
+    margin-right:10px;
+    height: 18px;
 }
 .i-l{
     padding-left:7.25px ;
